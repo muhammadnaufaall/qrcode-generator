@@ -18,7 +18,7 @@ export default function Home() {
   //function generate qr code
   const generateQrCode = () => {
     QRCode.toDataURL(url, {
-      width: 200,
+      width: 1000,
       margin: 2,
     }, (err, url) => {
       if (err) return console.error(err)
